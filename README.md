@@ -84,58 +84,57 @@ For detailed tutorials, see [Deploy your Astro site](https://docs.astro.build/en
 ## ⚒️ Configuration
 
 ```env
-## Telegram Channel Username, must be configured. The string of characters following t.me/
-CHANNEL=miantiao_me
+## Telegram 频道用户名，必须配置。 t.me/ 后面那串字符
+CHANNEL=DiggooChannel
 
-## Language and timezone settings, language options see [dayjs](https://github.com/iamkun/dayjs/tree/dev/src/locale)
-LOCALE=en
-TIMEZONE=America/New_York
+## 语言和时区设置，语言选项见[dayjs](https://github.com/iamkun/dayjs/tree/dev/src/locale)
+LOCALE=zh-cn
+TIMEZONE=Asia/Shanghai
 
-## Social media usernames
+## 社交媒体用户名
 TELEGRAM=ccbikai
-TWITTER=ccbikai
-GITHUB=ccbikai
-MASTODON=mastodon.social/@Mastodon
-BLUESKY=bsky.app
+TWITTER=digoodigu
+GITHUB=diggooltd
 
-## The following two social media need to be URLs
+## 下面两个社交媒体需要为 URL
 DISCORD=https://DISCORD.com
-PODCAST=https://PODCAST.com
+PODCASRT=https://PODCASRT.com
 
-## Header and footer code injection, supports HTML
+## 头部尾部代码注入，支持 HTML
 FOOTER_INJECT=FOOTER_INJECT
 HEADER_INJECT=HEADER_INJECT
 
-## SEO configuration options, can prevent search engines from indexing content
+## SEO 配置项，可不让搜索引擎索引内容
 NO_FOLLOW=false
 NO_INDEX=false
 
-## Sentry configuration options, collect server-side errors
+## Sentry 配置项，收集服务端报错
 SENTRY_AUTH_TOKEN=SENTRY_AUTH_TOKEN
 SENTRY_DSN=SENTRY_DSN
 SENTRY_PROJECT=SENTRY_PROJECT
 
-## Telegram host name and static resource proxy, not recommended to modify
+## Telegram 主机名称和静态资源代理，不建议修改
 HOST=telegram.dog
 STATIC_PROXY=
 
-## Enable Google Site Search
-GOOGLE_SEARCH_SITE=memo.miantiao.me
+## 启用谷歌站内搜索
+GOOGLE_SEARCH_SITE=channel.diggoo.xzy
 
-## Enable tags page, separate tags with commas
-TAGS=tag1,tag2,tag3
+## 启用标签页, 标签使用英文逗号分割
+TAGS=标签A,标签B,标签C
 
-## Show comments
+## 展示评论
 COMMENTS=true
 
-## List of links in the Links page, Separate using commas and semicolons
+## 链接页面中的超链接, 使用英文逗号和分号分割
 LINKS=Title1,URL1;Title2,URL3;Title3,URL3;
 
-## Sidebar Navigation Item, Separate using commas and semicolons
+## 侧边栏导航项, 使用英文逗号和分号分割
 NAVS=Title1,URL1;Title2,URL3;Title3,URL3;
 
-## Enable RSS beautify
+## 启用 RSS 美化
 RSS_BEAUTIFY=true
+
 ```
 
 ## 🙋🏻 FAQs
